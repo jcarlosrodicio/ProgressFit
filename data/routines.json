@@ -1,0 +1,31 @@
+{
+  "principiante_fuerza_completo": {
+    "name": "Rutina de Fuerza - Principiante (Gimnasio Completo)",
+    "description": "Rutina basica para empezar a construir fuerza.",
+    "days": [
+      {
+        "day": "Lunes",
+        "exercises": [
+          {
+            "id": "ej001",
+            "name": "Sentadilla con Barra",
+            "sets": 3,
+            "reps": "8-12",
+            "videoUrl": "https://example.com/videos/sentadilla.mp4",
+            "alternatives": [
+              {"id": "alt001", "name": "Sentadilla Goblet"}
+            ]
+          },
+          {
+            "id": "ej002",
+            "name": "Press de Banca con Barra",
+            "sets": 3,
+            "reps": "8-12",
+            "videoUrl": "https://example.com/videos/press_banca.mp4",
+            "alternatives": []
+          }
+        ]
+      }
+    ]
+  }
+}
